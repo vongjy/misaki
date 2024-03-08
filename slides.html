@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="slides.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <div class="floating-fixed-section">
+      <div class="floating-fixed-item">
+        <img src="images/qrcode_linktree.png" />
+        <p>Lost?<br />Scan Me</p>
+      </div>
+      <div class="floating-fixed-go-back">
+        <a href="index.html"><p>Go Back</p></a>
+      </div>
+    </div>
+
+    <section>
+      <h1>Welcome to<br />Tech Night Ep 4</h1>
+      <h2>Coding Your Own Portfolio Website</h2>
+      <div class="box">🎉</div>
+    </section>
+    <section>
+      <h2>Speaker Intro</h2>
+      <a href="/index.html" target="_blank"><p>Click here</p></a>
+    </section>
+    <section>
+      <h2>Introduction to STC</h2>
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/aBNvCoJP-ag?si=DXbOl9wRmlN3nAX-"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section>
+      <h2>Come and check us out!</h2>
+      <div class="club-contacts-container">
+        <div class="club-contacts">
+          <i class="fa-brands fa-square-facebook"></i>
+          <a href="https://www.facebook.com/sunwaytechclub/" target="_blank"
+            ><p>fb.com/sunwaytechclub</p></a
+          >
+          <i class="fa-brands fa-square-instagram"></i>
+          <a href="instagram.com/sunwaytechclub"
+            ><p>instagram.com/sunwaytechclub</p></a
+          >
+          <i class="fa-brands fa-linkedin"></i>
+          <a href=""><p>sunwaytechclub</p></a>
+          <i class="fa-brands fa-youtube"></i>
+          <a href=""><p>Sunway Tech Club</p></a>
+        </div>
+        <div class="club-QR">
+          <img src="/images/STC-linktree-qr.png" />
+          <a
+            href="https://linktr.ee/sunwaytechclub
+          "
+            target="_blank"
+            ><p>https://linktr.ee/sunwaytechclub</p></a
+          >
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Workshop Deliverables</h2>
+      <ul>
+        <li>Have a tech portfolio website that is deployed online for FREE</li>
+        <li>Know how to use inspect tool to make web development easier</li>
+        <li>
+          Know how to use GSAP to make sick animations
+          <em>(or at least the basics)</em>
+        </li>
+        <li>Have better web development skills <em>(I hope)</em></li>
+        <li>Know more tips and tricks when it comes to web development</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Why are we having this workshop?</h2>
+      <p style="padding: 2vw 10vw">
+        Mainly to help out students when they start looking for internships<br />I
+        delayed my internship search by quite a lot by only creating my website
+        when it was time to look for internships...this resulted in me being
+        late by around a month since I didn't feel confident to submit my resume
+        unless my website was done and decent
+      </p>
+      <p>Spoiler Alert:</p>
+      <p class="spoiler-text" onclick="spoilerReveal(this, 'white')">
+        My website still sucked... and the internship search was hell,
+        HHAHHAHAHA
+      </p>
+    </section>
+    <section>
+      <h2>Workshop Preparation</h2>
+      <div class="prep-container">
+        <ul>
+          <li>Have a GitHub account</li>
+          <li>
+            Have a FontAwesome account <br />*not mandatory but makes life
+            easier
+          </li>
+          <li>Have downloaded VSCode</li>
+          <li>
+            Downloaded certain extensions that make life easier:<br />px-to-vw<br />Prettier<br />Live
+            Server<br />HTML Boilerplate
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h2>Examples of cool tech portfolios</h2>
+      <a href="https://brittanychiang.com/">https://brittanychiang.com/</a>
+      <a href="https://www.cassie.codes/">https://www.cassie.codes/</a>
+      <a href="https://jhey.dev/">https://jhey.dev/</a>
+      <a href="https://meowni.ca/">https://meowni.ca/</a>
+      <a href="https://blog.anniebombanie.com/"
+        >https://blog.anniebombanie.com/</a
+      >
+    </section>
+    <section>
+      <h2>Inspect Tool</h2>
+    </section>
+    <section>
+      <h2>GSAP</h2>
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/TG67UXmf6mc?si=Q354pjTGGzGQ0yDd"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section>
+      <h2>GSAP</h2>
+      <p>Getting Started</p>
+      <p>Put this into your html file</p>
+      <p>
+        &ltscript
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"&gt&lt/script&gt<br />
+        &ltscript
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"&gt&lt/script&gt<br />
+        &ltscript
+        src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js">&gt&lt/script&gt
+      </p>
+    </section>
+    <section>
+      <h2>GSAP</h2>
+      <p>Simple Animation <br />*Make the finger emoji...thing move</p>
+    </section>
+    <section>
+      <h2>GSAP</h2>
+      <p>
+        Timeline <br />*Make things move like an animation such as the text
+        effect
+      </p>
+    </section>
+    <section>
+      <h2>GitHub</h2>
+      <a
+        href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site"
+        ><p>How to deploy your tech website portfolio for FREE</p></a
+      >
+      <ul>
+        <li>Create a repo and place your files into it</li>
+        <li>
+          Name the repo: "your-username.github.io" <br />*Has to be exactly the
+          same as your username or it won't work
+        </li>
+        <li>
+          Settings -> Pages -> Deploy from a branch -> Select branch you want to
+          deploy *usually main
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>QnA Session</h2>
+      <img src="/images/slido-qr.png" />
+      <a href="https://app.sli.do/event/tawBFsBk44BbV8yHagnJ99"
+        >https://app.sli.do/event/tawBFsBk44BbV8yHagnJ99</a
+      >
+      <p class="ps-text">Please ask stuff or else I will cry T_T</p>
+    </section>
+    <section>
+      <h2>Feedback Session</h2>
+      <img src="/images/feedback-qr.png" />
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="slides.js" async defer></script>
+    <script
+      src="https://kit.fontawesome.com/b34f4d3d0c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
